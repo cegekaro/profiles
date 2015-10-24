@@ -1,8 +1,12 @@
 @import "bourbon";
 @import "materialdesignicons";
 @import "lumx";
+
 @import "common/layout";
 @import "common/header";
 @import "common/content";
+@import "common/footer";
+
 @import "home/banner";
 @import "home/activity";
+@import "home/feature";
