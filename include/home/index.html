@@ -17,13 +17,13 @@
 <div class="github-activity">
     <div class="wrapper">
         <div class="github-activity__update">
-            <span>Latest Update on GitHub</span>
-            <strong>{{ repo.lastCommit.date | date }}:</strong>
+            <span>Latest Update on GitHub:</span>
+            <strong>{{ repo.lastCommit.date | date }}</strong>
             <a ng-href="{{ repo.lastCommit.url }}">Commit {{ repo.lastCommit.sha }}</a>
         </div>
 
         <div class="github-activity__contribute">
-            <a href="https://github.com/cegekaro/profiles/" class="btn btn--m btn--white btn--raised" lx-ripple>Contribute now</a>
+            <a href="https://github.com/cegekaro/profiles/" class="btn btn--m btn--white btn--raised" target="_blank" lx-ripple>Contribute now</a>
         </div>
     </div>
 </div>
