@@ -14,3 +14,9 @@ body {
     margin: 0 $base-spacing-unit * 3;
   }
 }
+
+.wrapper-only {
+  @extend .wrapper;
+
+  padding-top: 2rem;
+}

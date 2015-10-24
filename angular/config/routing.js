@@ -1,4 +1,4 @@
-angular.module('profiles').config(function($stateProvider, $urlRouterProvider) {
+angular.module('profiles').config(function ($stateProvider, $urlRouterProvider) {
     //
     // For any unmatched url, redirect to /state1
     $urlRouterProvider.otherwise("/home");
@@ -7,15 +7,18 @@ angular.module('profiles').config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
             url: "/home",
-            templateUrl: "include/home/index.html"
+            templateUrl: "include/home/index.html",
+            controller: 'HomeController'
         })
-        .state('account', {
-            url: "/account",
-            templateUrl: "include/account/dashboard.html"
+        .state('account_dashboard', {
+            url: "/account/dashboard",
+            templateUrl: "include/account/dashboard.html",
+            controller: 'AccountDashboardController'
         })
-        .state('account.login', {
-            url: "/login",
-            templateUrl: "include/account/login.html"
+        .state('account_login', {
+            url: "/account/login",
+            templateUrl: "include/account/login.html",
+            controller: 'AccountLoginController'
         })
         .state('help', {
             url: "/help",
