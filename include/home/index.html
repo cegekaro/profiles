@@ -1,0 +1,29 @@
+<!-- Banner -->
+<div class="banner">
+    <div class="banner__title">
+        <h1>Cegeka Profiles</h1>
+    </div>
+
+    <h2 class="banner__subtitle">
+        An open-source tool built to support your Cegeka profile management.
+    </h2>
+
+    <a ui-sref="account.login" class="banner__dl-btn btn btn--xl btn--white btn--raised" lx-ripple>
+        Login to manage your profile
+    </a>
+</div>
+
+<!-- Github activity -->
+<div class="github-activity">
+    <div class="wrapper">
+        <div class="github-activity__update">
+            <span>Latest Update on GitHub</span>
+            <strong>{{ repo.lastCommit.date | date }}:</strong>
+            <a ng-href="{{ repo.lastCommit.url }}">Commit {{ repo.lastCommit.sha }}</a>
+        </div>
+
+        <div class="github-activity__contribute">
+            <a href="https://github.com/cegekaro/profiles/" class="btn btn--m btn--white btn--raised" lx-ripple>Contribute now</a>
+        </div>
+    </div>
+</div>

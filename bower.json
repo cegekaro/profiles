@@ -1,0 +1,29 @@
+{
+  "name": "cegekaro/profiles",
+  "authors": [
+    "Petre Pătraşc <petre@dreamlabs.ro>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "cegeka",
+    "profiles",
+    "frontend"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lumx": "~0.3.95"
+  },
+  "devDependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}

@@ -1,0 +1,42 @@
+<header class="header">
+    <div class="menubar">
+        <button class="btn btn--m btn--icon btn--white" lx-ripple="white" ng-click="Sidebar.toggleSidebar()">
+            <i class="mdi mdi-menu"></i>
+        </button>
+    </div>
+
+    <h1 class="main-logo">
+        <a ui-sref="home" class="main-logo__link" lx-ripple="white">
+            <img src="/include/images/cegeka-logo.png">
+
+            <span>Profiles</span>
+        </a>
+    </h1>
+
+
+    <nav class="main-nav main-nav--lap-and-up">
+        <ul>
+            <li><a ui-sref="account.login" class="main-nav__link" lx-ripple="white">Login</a>
+            </li>
+            <li><a ui-sref="help" class="main-nav__link" lx-ripple="white">Help</a></li>
+            <li><a ui-sref="credits" class="main-nav__link" lx-ripple="white">Credits</a></li>
+        </ul>
+    </nav>
+
+    <nav class="main-nav main-nav--palm">
+        <lx-dropdown position="right" from-top>
+            <button class="btn btn--m btn--white btn--icon" lx-ripple="white" lx-dropdown-toggle>
+                <i class="mdi mdi-dots-vertical"></i>
+            </button>
+
+            <lx-dropdown-menu>
+                <ul>
+                    <li><a ui-sref="account.login" class="dropdown-link">Login</a>
+                    </li>
+                    <li><a ui-sref="help" class="dropdown-link">Help</a></li>
+                    <li><a ui-sref="credits" class="dropdown-link">Credits</a></li>
+                </ul>
+            </lx-dropdown-menu>
+        </lx-dropdown>
+    </nav>
+</header>

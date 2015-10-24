@@ -1,0 +1,32 @@
+{
+  "name": "profiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cegekaro/profiles"
+  },
+  "keywords": [
+    "cegeka",
+    "profiles",
+    "frontend"
+  ],
+  "author": "Petre Pătrașc <petre@dreamlabs.ro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cegekaro/profiles/issues"
+  },
+  "homepage": "https://github.com/cegekaro/profiles"
+}
